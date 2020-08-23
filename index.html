@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="Project Portfolio" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content="Per Blåwiik - Project Portfolio"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="Computer science" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Per Blåwiik - Project Portfolio</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="resources/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+    
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+		<a class="navbar-brand logo-image" href="index.html"><img src="resources/w_opt.svg" alt="alternative"></a> 
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+			
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+                </li>
+				
+                <!-- Dropdown Menu -->          
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					
+						<a class="dropdown-item nav-link page-scroll" href="#reddit-infoviz">
+							<span class="item-text">REDDIT VISUALIZATION</span>
+						</a>
+						
+                        <div class="dropdown-items-divide-hr"></div>
+					
+					
+                        <a class="dropdown-item nav-link page-scroll" href="#procedural-waves">
+							<span class="item-text">PROCEDURAL WAVES</span>
+						</a>
+						
+                        <div class="dropdown-items-divide-hr"></div>
+						
+                        <a class="dropdown-item nav-link page-scroll" href="#ray-tracer">
+							<span class="item-text">RAY TRACER</span>
+						</a>
+						
+						<div class="dropdown-items-divide-hr"></div>
+						
+                        <a class="dropdown-item nav-link page-scroll" href="#soft-body">
+							<span class="item-text">SOFT BODY SIMULATION</span>
+						</a>
+						
+						<div class="dropdown-items-divide-hr"></div>
+						
+                        <a class="dropdown-item nav-link page-scroll" href="#ice-cream">
+							<span class="item-text">SOUND CONTROLLED GAME</span>
+						</a>
+						
+						<div class="dropdown-items-divide-hr"></div>
+						
+                        <a class="dropdown-item nav-link page-scroll" href="#racing-game">
+							<span class="item-text">RACING GAME</span>
+						</a>
+						
+						<div class="dropdown-items-divide-hr"></div>
+						
+                        <a class="dropdown-item nav-link page-scroll" href="#troll-simulator">
+							<span class="item-text">TROLL SIMULATOR</span>
+						</a>
+						
+                    </div>
+                </li>
+                <!-- end of dropdown menu -->
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
+                </li>
+				
+            </ul>
+            <span class="nav-item social-icons">
+                <span class="fa-stack">
+                    <a href="https://www.linkedin.com/in/per-bl%C3%A5wiik-ba2489179/">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="https://github.com/perblawiik/">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-github-alt fa-stack-1x"></i>
+                    </a>
+                </span>
+            </span>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h1>PER BLÅWIIK <br>PROJECT PORTFOLIO</h1>
+                            <p class="p-large">
+								I am currently studying Master of Science in Media Technology and Engineering at Linköping University, 
+								with a planned graduation in June 2021. 
+								In this page you will find a selection of my student projects.
+							</p>
+                        </div>
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <img class="img-portrait" src="resources/image.jpg" alt="alternative">
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+		
+		<!-- Previews -->
+		<div class="slider-1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+
+						<!-- Card Slider -->
+						<div class="slider-container">
+							<div class="swiper-container card-slider">
+								<div class="swiper-wrapper">
+									
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="card">
+											<a class="page-scroll" href="#reddit-infoviz">
+												<img class="card-image" src="resources/reddit-infoviz-mini.png" alt="alternative">
+											</a>
+											
+											<div class="card-body">
+												<p class="preview-title">Reddit Visualization</p>
+											</div>
+										</div>
+									</div> <!-- end of swiper-slide -->
+									<!-- end of slide -->
+									
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="card">
+											<a class="page-scroll" href="#procedural-waves">
+												<img class="card-image" src="resources/procedural-waves-mini.png" alt="alternative">
+											</a>
+											
+											<div class="card-body">
+												<p class="preview-title">Procedural Ocean Waves</p>
+											</div>
+										</div>
+									</div> <!-- end of swiper-slide -->
+									<!-- end of slide -->
+			
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="card">
+											<a class="page-scroll" href="#ray-tracer">
+												<img class="card-image" src="resources/monte-carlo-mini.png" alt="alternative">
+											</a>
+											
+											<div class="card-body">
+												<p class="preview-title">Monte Carlo Ray Tracer</p>
+											</div>
+										</div>        
+									</div> <!-- end of swiper-slide -->
+									<!-- end of slide -->
+			
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="card">
+											<a class="page-scroll" href="#soft-body">
+												<img class="card-image" src="resources/soft-body-mini.png" alt="alternative">
+											</a>
+											
+											<div class="card-body">
+												<p class="preview-title">Soft Body Simulation</p>
+											</div>
+										</div>        
+									</div> <!-- end of swiper-slide -->
+									<!-- end of slide -->
+			
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="card">
+											<a class="page-scroll" href="#ice-cream">
+												<img class="card-image" src="resources/ice-cream-mini.png" alt="alternative">
+											</a>
+											
+											<div class="card-body">
+												<p class="preview-title">Sound Controlled Game</p>
+											</div>
+										</div>
+									</div> <!-- end of swiper-slide -->
+									<!-- end of slide -->
+			
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="card">
+											<a class="page-scroll" href="#racing-game">
+												<img class="card-image" src="resources/racing-game-mini.png" alt="alternative">
+											</a>
+											
+											<div class="card-body">
+												<p class="preview-title">Racing Game</p>
+											</div>
+										</div>        
+									</div> <!-- end of swiper-slide -->
+									<!-- end of slide -->
+			
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="card">
+											<a class="page-scroll" href="#troll-simulator">
+												<img class="card-image" src="resources/troll-sim-mini.png" alt="alternative">
+											</a>
+											
+											<div class="card-body">
+												<p class="preview-title">Troll Simulator</p>
+											</div>
+										</div>        
+									</div> <!-- end of swiper-slide -->
+									<!-- end of slide -->
+								
+								</div> <!-- end of swiper-wrapper -->
+			
+								<!-- Add Arrows -->
+								<div class="swiper-button-next"></div>
+								<div class="swiper-button-prev"></div>
+								<!-- end of add arrows -->
+			
+							</div> <!-- end of swiper-container -->
+						</div> <!-- end of slider-container -->
+						<!-- end of card slider -->
+
+					</div> <!-- end of col -->
+				</div> <!-- end of row -->
+			</div> <!-- end of container -->
+		</div> <!-- end of slider-1 -->
+		<!-- end of previews -->
+		
+    </header> <!-- end of header -->
+    <!-- end of header -->
+	
+	
+	
+	<!-- Visualizing Reddit -->
+    <div class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2 id="reddit-infoviz">Visualizing Reddit Using Text Mining Techniques</h2>
+                        <p class="p-large">
+							A group project made for the course <i>Information Visualisation</i>, <a href="https://liu.se/studieinfo/en/kurs/tnm048/vt-2020">TNM048</a> (Spring 2020).
+							For this project we got the opportunity to specialize in a specific field of information visualization.
+							The aim was to visualize and understand the website <a href="https://reddit.com">Reddit</a> by utilizing common text mining methods, hierarchical clustering and force-directed graph algorithms. 
+							The fundamental idea was to use the most frequent words as basis for measuring similarities and subjectively interpret the content of subreddits. 
+							Note that the colors and positioning of the subreddits are entirely generated based on hierarchical clustering and cosine similarities.
+							The final result is developed with python (for text mining) and the JavaScript library <a href="https://d3js.org/">D3.js</a>.
+							For more details, a technical report for the project can be found <a href="resources/Visualization_of_Reddit.pdf">here</a>.
+						</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+				
+				<div class="col-lg-6">
+                    <div class="image-container">
+						<a href="https://jojo126.github.io/TNM048">
+							<img class="img-preview-link" src="resources/reddit-infoviz.png" alt="alternative">
+						</a>
+                    </div> <!-- end of img-container -->
+					
+					<div class="div-center">
+						<a class="btn-solid-reg" href="https://jojo126.github.io/TNM048">LIVE BUILD</a>
+						<a class="btn-solid-reg" href="https://github.com/Jojo126/TNM048">SOURCE CODE</a>
+					</div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- End of Procedural Ocean Waves -->
+	
+	
+    <!-- Procedural Ocean Waves -->
+    <div class="basic-1">
+        <div class="container">
+            <div class="row">
+				<div class="col-lg-6">
+                    <div class="image-container">
+						<a href="https://perblawiik.github.io/procedural-waves">
+							<img class="img-preview-link" src="resources/procedural-waves.png" alt="alternative">
+						</a>
+                    </div> <!-- end of img-container -->
+					
+					<div class="div-center">
+						<a class="btn-solid-reg" href="https://perblawiik.github.io/procedural-waves">LIVE BUILD</a>
+						<a class="btn-solid-reg" href="https://github.com/perblawiik/procedural-waves">SOURCE CODE</a>
+					</div>
+                </div> <!-- end of col -->
+			
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2 id="procedural-waves">Procedural Ocean Waves</h2>
+                        <p class="p-large">
+							This was an individual project made during the course <i>Procedural Methods for Images</i>, <a href="https://liu.se/studieinfo/en/kurs/tnm084/ht-2019">TNM084</a> (Autumn 2019).
+							The project is an implementation of real-time procedurally generated ocean waves programmed with WebGL shaders.
+							The water surface consist of a plane with 200x200 quads and is generated entirely by displacing the vertices and bumping the normals. 
+							The waves can be configured by tuning a set of parameters in the user interface. 
+							The 3D-environment is developed in javascript from scratch using WebGL and the GUI (HTML Page) is created with reactjs.
+							The result can be viewed online on the link below. I recommend using Google Chrome instead of Firefox as the web browser when exploring the application.
+						</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- End of Procedural Ocean Waves -->
+
+
+    <!-- Monte Carlo Ray Tracer -->
+    <div class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2 id="ray-tracer">Monte Carlo Ray Tracer</h2>
+                        <p class="p-large">
+							A project for the course <i>Advanced Global Illumination and Rendering</i>, <a href="https://liu.se/studieinfo/en/kurs/tncg15/ht-2019">TNCG15</a> (Autumn 2019).
+							This was an attempt of making a photorealistic global illumination renderer made from scratch in C++. 
+							Photorealistic means that the algorithms used are based on mathematical models derived from physically realistic assumptions,
+							and given endless rendering time, a rendered image should be indistinguishable from the real counterpart (a photograph).
+							The illumination model is based on path tracing with Monte Carlo integration and supports perfectly reflective/refractive 
+							surfaces aswell as Lambertian and Oren-Nayar diffuse surfaces. An example image created with the renderer is shown below.
+						</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+				
+				<div class="col-lg-6">
+                    <img class="img-preview" src="resources/monte-carlo-ray-tracer.png" alt="alternative">
+					
+					<div class="div-center">
+						<a class="btn-solid-reg" href="https://github.com/perblawiik/ray-tracing-renderer">SOURCE CODE</a>
+					</div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- End of Monte Carlo Ray Tracer -->
+	
+	
+	<!-- Soft Body Simulation -->
+    <div class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+					<!-- Video Preview -->
+                    <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=aI7WbkEy4nw" data-effect="fadeIn">
+                                <img class="img-fluid" src="resources/soft-body.png" alt="alternative">
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span>
+                            </a>
+                        </div> <!-- end of video-wrapper -->
+                    </div> <!-- end of image-container -->
+                    <!-- end of video preview -->
+					
+					<div class="div-center">
+						<a class="btn-solid-reg" href="https://github.com/perblawiik/bouncy-ball">SOURCE CODE</a>
+					</div>
+                </div> <!-- end of col -->
+				
+				<div class="col-lg-6">
+                    <div class="text-container">
+                        <h2 id="soft-body">Soft Body Simulation Using a Spring-Mass-Damper System</h2>
+                        <p class="p-large">
+							 This was one of the more ambitious projects made during the course <i>Modeling Project</i>, <a href="https://liu.se/studieinfo/en/kurs/tnm085/vt-2019">TNM085</a> (Spring 2019).
+							The aim of the course was to apply the theory acquired from the course <i>Modelling and Simulation</i>, <a href="https://liu.se/studieinfo/en/kurs/tng022/ht-2018">TNG022</a> (Autumn 2018),
+							in a programming project. More specifically, the task was to create a graphical animation based on a mathematical model of a physical system.
+							We chose to investigate the possibility of simulating a bouncing soft body by using a spring-mass-damper system. The final result is programmed in C++ 
+							with the open source graphic library <a href="https://www.opengl.org/">OpenGL</a>.
+							A video of the result is available, note that each animation (bouncing ball) was computed with a different initial velocity before the real-time rendering.
+						</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- End of Soft Body Simulation -->
+	
+	
+	<!-- Voice Controlled Game -->
+    <div class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2 id="ice-cream">Sound Controlled Game</h2>
+                        <p class="p-large">
+							This was a small project in the course <i>Physics of Sound</i>, <a href="https://liu.se/studieinfo/en/kurs/tfya65/ht-2018">TFYA65</a> (Autumn 2018).
+							The specification for the project was that it should be connected to sound physics related to the contents of the course.
+							Me and the group made a 2D game where the character is controlled only by the microphone input. The audio input stream is continuously transformed into
+							the frequency domain by applying Fast Fourier Transforms. The strongest frequency of each iteration determines the direction of a velocity vector with the intensity as
+							magnitude. The game is programmed in JavaScript with the open source framework <a href="https://phaser.io/">Phaser</a> and <a href="https://p5js.org/">p5.js</a> library.
+						</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+				
+				<div class="col-lg-6">
+					<!-- Video Preview -->
+                    <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=yEa2eXnfXnA" data-effect="fadeIn">
+                                <img class="img-fluid" src="resources/ice-cream.png" alt="alternative">
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span>
+                            </a>
+                        </div> <!-- end of video-wrapper -->
+                    </div> <!-- end of image-container -->
+                    <!-- end of video preview -->
+
+					<div class="div-center">
+						<a class="btn-solid-reg" href="https://github.com/perblawiik/voice-jump">SOURCE CODE</a>
+					</div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- End of Voice Controlled Game -->
+
+
+	<!-- Racing Game -->
+    <div class="basic-1">
+        <div class="container">
+            <div class="row">
+				<div class="col-lg-6">
+                    <!-- Video Preview -->
+                    <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=9HFDtSNVKAc" data-effect="fadeIn">
+                                <img class="img-fluid" src="resources/racing-game.png" alt="alternative">
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span>
+                            </a>
+                        </div> <!-- end of video-wrapper -->
+                    </div> <!-- end of image-container -->
+                    <!-- end of video preview -->
+					
+					<div class="div-center">
+						<a class="btn-solid-reg" href="https://github.com/perblawiik/mania-track">SOURCE CODE</a>
+					</div>
+                </div> <!-- end of col -->
+				
+				<div class="col-lg-6">
+                    <div class="text-container">
+                        <h2 id="racing-game">Shopping Cart Racing Game</h2>
+                        <p class="p-large">
+							The following project was a part of the course <i>3-D Computer Graphics</i>, <a href="https://liu.se/studieinfo/en/kurs/tnm061/vt-2018">TNM061</a> (Spring 2018).
+							Our goal for this project was to gain practical knowledge in computer graphics by working with a 3D environment. The result was a racing game
+							where the task is to collect as many groceries as possible within a limited time frame. The player controlled shopping cart becomes slower for each
+							item collected and at the end the player have to cross a busy road to secure the final score. The game was created with the game engine <a href="https://unity3d.com/">Unity 3D</a>
+							which is mostly coded with C#.
+						</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- End of Racing Game -->
+	
+	
+	<!-- Troll Simulator -->
+    <div class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2 id="troll-simulator">Troll Simulator</h2>
+                        <p class="p-large">
+							This was one of the earliest student projects that was a part of the course <i>Communication and User Interfaces</i>, <a href="https://liu.se/studieinfo/en/kurs/tnm040/ht-2017">TNM040</a> (Autumn 2017).
+							The task was to design and implement a functional and user friendly graphical user interface for a target audience.
+							The result was a facebook parody game targeted for teenagers and young adults. The game was built with the JavaScript library
+							<a href="https://reactjs.org/">React js</a> and is available online.
+						</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+				
+				<div class="col-lg-6">
+					<div class="image-container">
+						<a href="http://www.student.itn.liu.se/~freno979/cake/build/">
+							<img class="img-preview-link" src="resources/troll-sim.png" alt="alternative">
+						</a>
+					</div> <!-- end of img-container -->
+
+					<div class="div-center">
+						<a class="btn-solid-reg" href="http://www.student.itn.liu.se/~freno979/cake/build/">LIVE BUILD</a>
+						<a class="btn-solid-reg" href="https://github.com/perblawiik/the-cake">SOURCE CODE</a>
+					</div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- End of Troll Simulator -->
+
+
+    <!-- Contact -->
+    <div id="contact" class="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>CONTACT INFORMATION</h2>
+                    <ul class="list-unstyled li-space-lg">
+                        <li><i class="fas fa-map-marker-alt"></i>Norrköping</li>
+                        <li><i class="fas fa-envelope"></i><a class="blue" href="mailto:persj146@student.liu.se">persj146@student.liu.se</a></li>
+						<li><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/per-bl%C3%A5wiik-ba2489179/">LinkedIn Profile</a></li>
+                        <li><i class="fab fa-github"></i><a href="https://github.com/perblawiik/">GitHub Profile</a></li>
+                    </ul>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            
+        </div> <!-- end of container -->
+    </div> <!-- end of form -->
+    <!-- end of contact -->
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © Per Blåwiik 2020 - Template Inspired by <a href="http://www.inovatik.com">Inovatik</a></p></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
