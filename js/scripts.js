@@ -122,7 +122,7 @@
 
     /* Back To Top Button */
     // create the back to top button
-    $('body').prepend('<a href="body" class="back-to-top page-scroll">Back to Top</a>');
+    $('body').prepend('<a href="#header" class="back-to-top page-scroll">Back to Top</a>');
     var amountScrolled = 500;
     $(window).scroll(function() {
         if ($(window).scrollTop() > amountScrolled) {
