@@ -65,6 +65,12 @@
                     <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					
+						<a class="dropdown-item nav-link page-scroll" href="#drone-ai">
+							<span class="item-text">DRONE AI</span>
+						</a>
+						
+						<div class="dropdown-items-divide-hr"></div>
+					
 						<a class="dropdown-item nav-link page-scroll" href="#reddit-infoviz">
 							<span class="item-text">REDDIT VISUALIZATION</span>
 						</a>
@@ -173,6 +179,20 @@
 						<div class="slider-container">
 							<div class="swiper-container card-slider">
 								<div class="swiper-wrapper">
+								
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="card">
+											<a class="page-scroll" href="#drone-ai">
+												<img class="card-image" src="resources/drone-ai-mini.png" alt="alternative">
+											</a>
+											
+											<div class="card-body">
+												<p class="preview-title">Drone AI</p>
+											</div>
+										</div>
+									</div> <!-- end of swiper-slide -->
+									<!-- end of slide -->
 									
 									<!-- Slide -->
 									<div class="swiper-slide">
@@ -308,8 +328,52 @@
 	
 	
 	
-	<!-- Visualizing Reddit -->
+	<!-- Reinforcement Learning -->
     <div class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+					<!-- Video Preview -->
+                    <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=WaMEi7R5w8Y" data-effect="fadeIn">
+                                <img class="img-fluid" src="resources/drone-ai.png" alt="alternative">
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span>
+                            </a>
+                        </div> <!-- end of video-wrapper -->
+                    </div> <!-- end of image-container -->
+                    <!-- end of video preview -->
+					
+					<div class="div-center">
+						<a class="btn-solid-reg" href="https://github.com/perblawiik/drone-ai">SOURCE CODE</a>
+					</div>
+                </div> <!-- end of col -->
+				
+				<div class="col-lg-6">
+                    <div class="text-container">
+                        <h2 id="drone-ai">Self-Learning Drone Navigation using Reinforcement Learning</h2>
+                        <p class="p-large">
+							This is my individual project for the course <i>Artificial Intelligence for Interactive Media</i>, <a href="https://liu.se/studieinfo/en/kurs/tnm095/ht-2020">TNM095</a> (Autum 2020).
+							The aim for the project was to train a quadcopter drone to navigate through an obstacle course while performing a simple task using Reinforcement Learning.
+							I investigated several available methods but ended up using an algorithm called <i>Proximal Policy Optimization</i> which is a deep reinforcement learning technique
+							proposed by OpenAI researchers in <a href="https://openai.com/blog/openai-baselines-ppo/">2017</a>.
+							The drone was a simplified 3D model in a game environment and is controlled by forces applied to a rigidbody.
+							A simple PID-controller was used for controlling the altitude of the drone.
+							The final result was implemented using the game engine <a href="https://unity3d.com/">Unity 3D</a> and the <a href="https://github.com/Unity-Technologies/ml-agents">ML-Agents</a> toolkit.
+						</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- End of Reinforcement Learning -->
+   
+	
+	
+	<!-- Visualizing Reddit -->
+    <div class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -337,16 +401,17 @@
 					<div class="div-center">
 						<a class="btn-solid-reg" href="https://jojo126.github.io/TNM048">LIVE BUILD</a>
 						<a class="btn-solid-reg" href="https://github.com/Jojo126/TNM048">SOURCE CODE</a>
+						<a class="btn-solid-reg" href="resources/Visualization_of_Reddit.pdf">PDF</a>
 					</div>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of basic-2 -->
-    <!-- End of Procedural Ocean Waves -->
+    <!-- End of Visualizing Reddit -->
 	
 	
     <!-- Procedural Ocean Waves -->
-    <div class="basic-1">
+    <div class="basic-2">
         <div class="container">
             <div class="row">
 				<div class="col-lg-6">
@@ -382,7 +447,7 @@
 
 
     <!-- Monte Carlo Ray Tracer -->
-    <div class="basic-2">
+    <div class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -394,7 +459,7 @@
 							Photorealistic means that the algorithms used are based on mathematical models derived from physically realistic assumptions,
 							and given endless rendering time, a rendered image should be indistinguishable from the real counterpart (a photograph).
 							The illumination model is based on path tracing with Monte Carlo integration and supports perfectly reflective/refractive 
-							surfaces aswell as Lambertian and Oren-Nayar diffuse surfaces. An example image created with the renderer is shown below.
+							surfaces aswell as Lambertian and Oren-Nayar diffuse surfaces. The example image is created with the renderer using the resolution of 1024x768.
 						</p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
@@ -404,6 +469,7 @@
 					
 					<div class="div-center">
 						<a class="btn-solid-reg" href="https://github.com/perblawiik/ray-tracing-renderer">SOURCE CODE</a>
+						<a class="btn-solid-reg" href="resources/Global_Illumination_Renderer.pdf">PDF</a>
 					</div>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -413,7 +479,7 @@
 	
 	
 	<!-- AR Mobile Game -->
-    <div class="basic-1">
+    <div class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -456,7 +522,7 @@
 	
 	
 	<!-- Soft Body Simulation -->
-    <div class="basic-2">
+    <div class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -498,7 +564,7 @@
 	
 	
 	<!-- Voice Controlled Game -->
-    <div class="basic-1">
+    <div class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -539,7 +605,7 @@
 
 
 	<!-- Racing Game -->
-    <div class="basic-2">
+    <div class="basic-1">
         <div class="container">
             <div class="row">
 				<div class="col-lg-6">
@@ -580,7 +646,7 @@
 	
 	
 	<!-- Troll Simulator -->
-    <div class="basic-1">
+    <div class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
