@@ -65,6 +65,12 @@
                     <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					
+						<a class="dropdown-item nav-link page-scroll" href="#scatter-tool">
+							<span class="item-text">SCATTER POINT TOOL</span>
+						</a>
+						
+						<div class="dropdown-items-divide-hr"></div>
+					
 						<a class="dropdown-item nav-link page-scroll" href="#drone-ai">
 							<span class="item-text">DRONE AI</span>
 						</a>
@@ -154,9 +160,8 @@
                         <div class="text-container">
                             <h1>PER BLÅWIIK <br>PROJECT PORTFOLIO</h1>
                             <p class="p-large">
-								I am currently studying Master of Science in Media Technology and Engineering at Linköping University, 
-								with a planned graduation in June 2021. 
-								In this page you will find a selection of my student projects.
+								I recently finished my Master of Science degree in Media Technology and Engineering at Linköping University. 
+								On this page you will find a selection of my student projects.
 							</p>
                         </div>
                     </div> <!-- end of col -->
@@ -178,7 +183,21 @@
 						<!-- Card Slider -->
 						<div class="slider-container">
 							<div class="swiper-container card-slider">
-								<div class="swiper-wrapper">
+								<div class="swiper-wrapper">								
+								
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="card">
+											<a class="page-scroll" href="#scatter-tool">
+												<img class="card-image" src="resources/scatter-tool-mini.png" alt="alternative">
+											</a>
+											
+											<div class="card-body">
+												<p class="preview-title">Scatter Point Tool</p>
+											</div>
+										</div>
+									</div> <!-- end of swiper-slide -->
+									<!-- end of slide -->
 								
 									<!-- Slide -->
 									<div class="swiper-slide">
@@ -327,9 +346,51 @@
     <!-- end of header -->
 	
 	
+	<!-- Scatter Point Tool -->
+    <div class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2 id="scatter-tool">A Scatter Point Tool For Object Placements Using Poisson-Disk Sampling</h2>
+                        <p class="p-large">
+							A small project made for the course <i>SFX - Tricks of the Trade</i>, <a href="https://liu.se/studieinfo/en/kurs/tncg13/ht-2020">TNCG13</a> (Autumn 2020).
+							The purpose of the project was to create a scattering tool aimed to make the process of populating a scene with multiple objects less time consuming for 3D artists.
+							The scatter point distribution is based on Poisson-disk sampling, and random rotation and scaling deviations. 
+							A <i>Hierarchical Dart Throwing</i> algorithm was used for a fast generation of Poisson-disk sample points, to make the tool more suitable for live applications.
+							The result was a tool script implemented for the computer graphics software <a href="https://www.autodesk.com/products/maya/overview">Autodesk Maya</a>, using its python API together with the <a href="https://help.autodesk.com/view/MAYAUL/2016/ENU/?guid=__files_Maya_Python_API_Using_the_Maya_Python_API_htm">OpenMaya API</a>.
+						</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+				
+				<div class="col-lg-6">
+                    <!-- Video Preview -->
+                    <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=TVlMzfpaUKE" data-effect="fadeIn">
+                                <img class="img-fluid" src="resources/scatter-tool.png" alt="alternative">
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span>
+                            </a>
+                        </div> <!-- end of video-wrapper -->
+                    </div> <!-- end of image-container -->
+                    <!-- end of video preview -->
+					
+					<div class="div-center">
+						<a class="btn-solid-reg" href="https://github.com/perblawiik/maya-scatter-tool">SOURCE CODE</a>
+						<a class="btn-solid-reg" href="resources/Scatter_Point_Tool.pdf">PDF</a>
+					</div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- End of Scatter Point Tool -->
+	
+	
 	
 	<!-- Reinforcement Learning -->
-    <div class="basic-2">
+    <div class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -348,6 +409,7 @@
 					
 					<div class="div-center">
 						<a class="btn-solid-reg" href="https://github.com/perblawiik/drone-ai">SOURCE CODE</a>
+						<a class="btn-solid-reg" href="resources/Drone_AI.pdf">PDF</a>
 					</div>
                 </div> <!-- end of col -->
 				
@@ -373,7 +435,7 @@
 	
 	
 	<!-- Visualizing Reddit -->
-    <div class="basic-1">
+    <div class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -411,7 +473,7 @@
 	
 	
     <!-- Procedural Ocean Waves -->
-    <div class="basic-2">
+    <div class="basic-1">
         <div class="container">
             <div class="row">
 				<div class="col-lg-6">
@@ -447,7 +509,7 @@
 
 
     <!-- Monte Carlo Ray Tracer -->
-    <div class="basic-1">
+    <div class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -479,7 +541,7 @@
 	
 	
 	<!-- AR Mobile Game -->
-    <div class="basic-2">
+    <div class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -522,7 +584,7 @@
 	
 	
 	<!-- Soft Body Simulation -->
-    <div class="basic-1">
+    <div class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -559,12 +621,12 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
+    </div> <!-- end of basic-2 -->
     <!-- End of Soft Body Simulation -->
 	
 	
 	<!-- Voice Controlled Game -->
-    <div class="basic-2">
+    <div class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -600,12 +662,12 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
+    </div> <!-- end of basic-1 -->
     <!-- End of Voice Controlled Game -->
 
 
 	<!-- Racing Game -->
-    <div class="basic-1">
+    <div class="basic-2">
         <div class="container">
             <div class="row">
 				<div class="col-lg-6">
@@ -641,12 +703,12 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
+    </div> <!-- end of basic-2 -->
     <!-- End of Racing Game -->
 	
 	
 	<!-- Troll Simulator -->
-    <div class="basic-2">
+    <div class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -675,7 +737,7 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
+    </div> <!-- end of basic-1 -->
     <!-- End of Troll Simulator -->
 
 
