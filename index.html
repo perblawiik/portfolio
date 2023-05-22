@@ -65,6 +65,10 @@
                     <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					
+						<a class="dropdown-item nav-link page-scroll" href="#thesis">
+							<span class="item-text">THESIS PROJECT</span>
+						</a>
+						
 						<a class="dropdown-item nav-link page-scroll" href="#scatter-tool">
 							<span class="item-text">SCATTER POINT TOOL</span>
 						</a>
@@ -183,7 +187,20 @@
 						<!-- Card Slider -->
 						<div class="slider-container">
 							<div class="swiper-container card-slider">
-								<div class="swiper-wrapper">								
+								<div class="swiper-wrapper">		
+									<!-- Slide -->
+									<div class="swiper-slide">
+										<div class="card">
+											<a class="page-scroll" href="#thesis">
+												<img class="card-image" src="resources/thesis-mini.png" alt="alternative">
+											</a>
+											
+											<div class="card-body">
+												<p class="preview-title">Thesis Project</p>
+											</div>
+										</div>
+									</div> <!-- end of swiper-slide -->
+									<!-- end of slide -->
 								
 									<!-- Slide -->
 									<div class="swiper-slide">
@@ -346,8 +363,55 @@
     <!-- end of header -->
 	
 	
-	<!-- Scatter Point Tool -->
+	
+	<!-- Master Thesis -->
     <div class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2 id="thesis">Fusing Stereo Measurements into a Global 3D Representation</h2>
+                        <p class="p-large">
+							My master thesis project done at Linköping University and as an industrial collaboration with <a href="https://www.saab.com/">Saab</a>.
+							<br>
+							<b>Abstract:</b> 
+							The aim of the thesis project was to solve the problem of fusing an arbitrary sequence of stereo measurements into a global 3D representation in real-time. 
+							The proposed method involves an octree-based signed distance function for representing the 3D environment, where the geometric data is fused together using 
+							a cumulative weighted update function, and finally rendered by incremental mesh extraction using the marching cubes algorithm. The result of the project 
+							was a prototype system, integrated into a real-time stereo reconstruction system, which was evaluated by benchmark tests as well as qualitative comparisons 
+							with an older method of overlapping meshes.
+							<br>
+						</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+				
+				<div class="col-lg-6">
+                    <!-- Video Preview -->
+                    <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=K-R6GI4yCT0" data-effect="fadeIn">
+                                <img class="img-fluid" src="resources/thesis.png" alt="alternative">
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span>
+                            </a>
+                        </div> <!-- end of video-wrapper -->
+                    </div> <!-- end of image-container -->
+                    <!-- end of video preview -->
+					
+					<div class="div-center">
+						<a class="btn-solid-reg" href="http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-177586">PDF</a>
+					</div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- End of Master Thesis -->
+	
+	
+	
+	<!-- Scatter Point Tool -->
+    <div class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -390,7 +454,7 @@
 	
 	
 	<!-- Reinforcement Learning -->
-    <div class="basic-1">
+    <div class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -435,7 +499,7 @@
 	
 	
 	<!-- Visualizing Reddit -->
-    <div class="basic-2">
+    <div class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -473,7 +537,7 @@
 	
 	
     <!-- Procedural Ocean Waves -->
-    <div class="basic-1">
+    <div class="basic-2">
         <div class="container">
             <div class="row">
 				<div class="col-lg-6">
@@ -509,7 +573,7 @@
 
 
     <!-- Monte Carlo Ray Tracer -->
-    <div class="basic-2">
+    <div class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -541,7 +605,7 @@
 	
 	
 	<!-- AR Mobile Game -->
-    <div class="basic-1">
+    <div class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -584,7 +648,7 @@
 	
 	
 	<!-- Soft Body Simulation -->
-    <div class="basic-2">
+    <div class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -626,7 +690,7 @@
 	
 	
 	<!-- Voice Controlled Game -->
-    <div class="basic-1">
+    <div class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -667,7 +731,7 @@
 
 
 	<!-- Racing Game -->
-    <div class="basic-2">
+    <div class="basic-1">
         <div class="container">
             <div class="row">
 				<div class="col-lg-6">
@@ -708,7 +772,7 @@
 	
 	
 	<!-- Troll Simulator -->
-    <div class="basic-1">
+    <div class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -749,7 +813,7 @@
                     <h2>CONTACT INFORMATION</h2>
                     <ul class="list-unstyled li-space-lg">
                         <li><i class="fas fa-map-marker-alt"></i>Norrköping</li>
-                        <li><i class="fas fa-envelope"></i><a class="blue" href="mailto:persj146@student.liu.se">persj146@student.liu.se</a></li>
+                        <li><i class="fas fa-envelope"></i><a class="blue" href="mailto:persj146@student.liu.se">perj.sg@gmail.com</a></li>
 						<li><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/per-bl%C3%A5wiik-ba2489179/">LinkedIn Profile</a></li>
                         <li><i class="fab fa-github"></i><a href="https://github.com/perblawiik/">GitHub Profile</a></li>
                     </ul>
